@@ -171,6 +171,6 @@ The cons can be divided into each of the parts of the equation of a PID type con
 - PID = The biggest problem is when you have stochastic variables (non-continuous - changing over time), PID is not a good control method. In this case you have to go to more intelligent control systems.<br />
 
 ### **e) (Optional) What would you do to improve the PID controller?:** <br />
-Aplicando alguno de los algoritmos existentes para automatizarlo y lograr un autotuning sin necesidad de estar modificando un sistema multivariable en forma manual.<br />
+Applying some of the existing algorithms to automate and achieve autotuning without the need to modify a multivariable system manually.<br />
 
 ### [Go To Source Code Directly!!!](https://github.com/HomeBrain-ARG/SDCE_PID/tree/main/01_Source_Code) <br />

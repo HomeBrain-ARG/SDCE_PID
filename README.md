@@ -154,7 +154,7 @@ The effect is that, when using this control method, it is about reducing the err
 <br />
 
 ### **c) How would you design a way to automatically tune the PID parameters?:** <br />
-En el curso aprendimos el método llamado Twiddle para poder automatizar con escalones discretos un PID. There are also other methods, such as Ziegler-Nichols, to make these adjustments. Series of rules to tune PID based on an experimental study of multiple system responses (before step input, and studying the critical stability gain in the case of a system with proportional control). <br />
+In the course we learned the method called Twiddle to be able to automate a PID with discrete steps. There are also other methods, such as Ziegler-Nichols, to make these adjustments. Series of rules to tune PID based on an experimental study of multiple system responses (before step input, and studying the critical stability gain in the case of a system with proportional control). <br />
 
 ### **d) PID controller is a model free controller, i.e. it does not use a model of the car. Could you explain the pros and cons of this type of controller?:** <br />
 

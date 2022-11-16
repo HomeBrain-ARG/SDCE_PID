@@ -139,6 +139,34 @@ FIGURE 5: Throttle Error vs. Throttle Output vs Brake Output. <br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/06_Error_Throttle.JPG)
 ### **In the graphic of FIGURE 5 we can see that we can be divided into 3 main parts: in the first part there is a damped oscillation, in the second part a high error is seen and in the third part where the vehicle accelerates continuously to go straight, the error decreases.** <be />
 
+## **5) Answers:** <br />
+
+<br />
+
+a) Add the plots to your report and explain them (describe what you see):<br />
+**Explanation has been added below each chart.**<br />
+
+<br />
+
+b) What is the effect of the PID according to the plots, how each part of the PID affects the control command?:<br />
+**The effect is that, when using this control method, it is about reducing the error of a variable against a setpoint. This control method itself has been formulated in such a way as to be able to control variables using only 3 constants: **Kp**, **Ki** and **Kd**. The proportional value depends on the current error (only using this value would the system oscillate indefinitely), the integral depends on past errors (using this value additionally, the error decreases) and the derivative is a prediction of future errors (by adding this third value it gets faster to get to or away from the setpoint).** <br />
+
+<br />
+
+c) How would you design a way to automatically tune the PID parameters?:<br />
+**En el curso aprendimos el método llamado Twiddle para poder automatizar con escalones discretos un PID. There are also other methods, such as Ziegler-Nichols, to make these adjustments.** <br />
+
+d) PID controller is a model free controller, i.e. it does not use a model of the car. Could you explain the pros and cons of this type of controller?:<br />
+** Pros:** <br />
+- Simple.<br />
+- Efficient.<br />
+- It is widely used in standard control.<br />
+
+**Cons:** <br />
+- 
+
+e) (Optional) What would you do to improve the PID controller?:<br />
+
 
 
 

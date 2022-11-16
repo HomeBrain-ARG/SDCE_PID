@@ -132,12 +132,12 @@ FIGURE 3: Stopping at the end of the path. <br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/04_Car.JPG) <br />
 
 FIGURE 4: Steering Error vs. Steering Output. <br />
-![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/05_Error_Steering.JPG) <br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/05_Error_Steering.JPG)
 ### **In this graph it can be seen that the error follows the output signal in an acceptable way.** <br />
 
 FIGURE 5: Throttle Error vs. Throttle Output vs Brake Output. <br />
-![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/06_Error_Throttle.JPG) <br />
-### **In the first part of the curve the throttle error is high, an improvement is seen when the vehicle moves in a straight line continuously.** <be />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/06_Error_Throttle.JPG)
+### **This graph can be divided into 3 parts: in the first part there is a damped oscillation, in the second part a high error is seen and in the third part where the vehicle accelerates continuously to go straight, the error decreases.** <be />
 
 
 

@@ -122,8 +122,8 @@ pip3 install matplotlib
 
 ## **4) Results:** <br />
 
-FIGURE 1: Dodging the vehicle to the right.. <br />
-![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/01_Car.JPG) <br />
+FIGURE 1: Dodging the vehicle to the right. <br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/03_Car.JPG) <br />
 
 FIGURE 2: Arriving at the last vehicle without oscillations. <br />
 ![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/02_Car.JPG) <br />

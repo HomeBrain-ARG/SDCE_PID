@@ -4,7 +4,7 @@
 
 ### [Go To Source Code Directly!!!]() <br />
 
-![alt text]() <br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/00_Prueba_Auto_Sin_Movimiento.JPG) <br />
 
 ## **1) Project Summary:** <br />
 

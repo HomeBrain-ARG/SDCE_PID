@@ -173,4 +173,13 @@ The cons can be divided into each of the parts of the equation of a PID type con
 ### **e) (Optional) What would you do to improve the PID controller?:** <br />
 Applying some of the existing algorithms to automate and achieve autotuning without the need to modify a multivariable system manually.<br />
 
+## **6) Manual procedure to tune a PID (include in the main.cpp file):** <br />
+
+The procedure for tuning the PID loop is described below:<br />
+
+- All constants are set to zero.<br />
+- The proportional constant is increased until a response that is as close to the desired response as possible is obtained. At this point it is possible that over impulse or oscillations appear. The steady-state error is probably nonzero.<br />
+- To correct the steady-state error, the integral constant must be adjusted. Overshoot and oscillations may increase.<br />
+- To reduce overshoot and oscillations, the derivative constant is adjusted.<br />
+
 ### [Go To Source Code Directly!!!](https://github.com/HomeBrain-ARG/SDCE_PID/tree/main/01_Source_Code) <br />

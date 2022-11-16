@@ -122,16 +122,24 @@ pip3 install matplotlib
 
 ## **4) Results:** <br />
 
-FIGURE 1: Starting the simulation. <br />
-![alt text]() <br />
+FIGURE 1: Dodging the vehicle to the right.. <br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/01_Car.JPG) <br />
 
-FIGURE 2: . <br />
-![alt text]() <br />
+FIGURE 2: Arriving at the last vehicle without oscillations. <br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/02_Car.JPG) <br />
 
-FIGURE 3: . <br />
-![alt text]() <br />
+FIGURE 3: Stopping at the end of the path. <br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/04_Car.JPG) <br />
 
-FIGURE 4: Stopping at the end of the path. <br />
-![alt text]() <br />
+FIGURE 4: Steering Error vs. Steering Output. <br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/05_Error_Steering.JPG) <br />
+### **In this graph it can be seen that the error follows the output signal in an acceptable way.** <br />
+
+FIGURE 5: Throttle Error vs. Throttle Output vs Brake Output. <br />
+![alt text](https://github.com/HomeBrain-ARG/SDCE_PID/blob/main/00_Images/06_Error_Throttle.JPG) <br />
+### **In the first part of the curve the throttle error is high, an improvement is seen when the vehicle moves in a straight line continuously.** <be />
+
+
+
 
 ### [Go To Source Code Directly!!!](https://github.com/HomeBrain-ARG/SDCE_PID/tree/main/01_Source_Code) <br />

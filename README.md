@@ -158,7 +158,7 @@ En el curso aprendimos el método llamado Twiddle para poder automatizar con esc
 
 ### **d) PID controller is a model free controller, i.e. it does not use a model of the car. Could you explain the pros and cons of this type of controller?:** <br />
 
-** Pros:** <br />
+**Pros:** <br />
 - Simple.<br />
 - Efficient.<br />
 - It is widely used in standard control.<br />

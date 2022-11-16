@@ -69,5 +69,51 @@ ps -aux | grep carla
 kill id
 ```
 
+## **3) Project Instructions:**<br />
+In the previous project you built a path planner for the autonomous vehicle. Now you will build the steer and throttle controller so that the car follows the trajectory.<br />
+You will design and run the a PID controller as described in the previous course.<br />
+In the directory **/pid_controller** you will find the files **pid_controller.cpp** and **pid_controller.h**. This is where you will code your pid controller. The function pid is called in **main.cpp**.<br />
 
+### **Step 1: Build the PID controller object.** <br />
+
+Complete the TODO in the **pid_controller.h** and **pid_controller.cpp**.<br />
+
+Run the simulator and see in the desktop mode the car in the CARLA simulator. Take a screenshot and add it to your report. The car should not move in the simulation.<br />
+
+### **Step 2: PID controller for throttle.** <br />
+1) In main.cpp, complete the TODO (step 2) to compute the error for the throttle pid. The error is the speed difference between the actual speed and the desired speed.<br />
+Useful variables:<br />
+- The last point of **v_points** vector contains the velocity computed by the path planner.<br />
+- **velocity** contains the actual velocity.<br />
+- The output of the controller should be inside **[-1, 1]**.<br />
+
+2) Comment your code to explain why did you computed the error this way.<br />
+3) Tune the parameters of the pid until you get satisfying results (a perfect trajectory is not expected).<br />
+
+### **Step 3: PID controller for steer.** <br />
+
+1) In **main.cpp**, complete the TODO (step 3) to compute the error for the steer pid. The error is the angle difference between the actual steer and the desired steer to reach the planned position.<br />
+
+Useful variables:<br />
+
+- The variable y_points and x_point gives the desired trajectory planned by the path_planner.<br />
+- yaw gives the actual rotational angle of the car.<br />
+- The output of the controller should be inside [-1.2, 1.2].<br />
+- If needed, the position of the car is stored in the variables x_position, y_position and z_position.<br />
+
+2) Comment your code to explain why did you computed the error this way.<br />
+
+3) Tune the parameters of the pid until you get satisfying results (a perfect trajectory is not expected).<br />
+
+### **Step 4: Evaluate the PID efficiency.** <br />
+The values of the error and the pid command are saved in thottle_data.txt and steer_data.txt. Plot the saved values using the command (in nd013-c6-control-refresh/project):<br />
+
+`python3 plot_pid.py`
+
+You might need to install a few additional python modules:<br />
+
+```
+pip3 install pandas
+pip3 install matplotlib
+```
 

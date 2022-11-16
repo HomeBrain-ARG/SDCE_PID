@@ -184,7 +184,7 @@ The procedure for tuning the PID loop is described below:<br />
 
 ## **7) Corrections Notes:** <br />
 ### Due to changes in the code I have made the following corrections:<br />
-- I have slightly decreased the derivative constant so that the direction does not oscillate as much.<br />
-- I have slightly increased the integral constant and decreased the derivative constant so that the accelerations are smoother.<br />
+- Steering: I have slightly decreased the derivative constant so that the steering system does not oscillate as much.<br />
+- Throttle: I have slightly increased the integral constant and decreased the derivative constant so that the accelerations are smoother.<br />
 
 ### [Go To Source Code Directly!!!](https://github.com/HomeBrain-ARG/SDCE_PID/tree/main/01_Source_Code) <br />
